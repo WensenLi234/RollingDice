@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rolling Dice</title>
+    <link rel="stylesheet" href="rollingdice.css">
 </head>
 <body>
     <h1>
-        <p id = "1" class = "Dice">⚀</p>
-        <p id = "2" class = "Dice">⚀</p>
+        <div id="div1">
+            <p id="Dice1" class="Dice">⚀</p>
+            <p id="Display1" class="Display">1</p>
+        </div>
+        <div id="div2">
+            <p id="Dice2" class="Dice">⚀</p>
+        <p id="Display2" class="Display">1</p>
+        </div>
     </h1>
+    <p id="DisplaySum" class="Display">2</p>
+    <h3><button id="RollButton">Reroll Dice</button></h3>
+    <script src="rollingDiceScript.js"></script>
 </body>
 </html>
